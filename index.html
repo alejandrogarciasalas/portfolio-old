@@ -5,6 +5,12 @@ layout: default
   <!-- Main view -->
   <div class="view">
     <!-- Blueprint header -->
+    <div class="sub-header">
+      <div class="row">
+        <div class="four columns"><h2 class="site-title"><a href="">Alejandro García Salas'</a></h2></div>
+        <div class="two columns offset-by-six text-right"><h3 class="contact-title"><a href="">Contact</a></h3></div>
+      </div>
+    </div>
     <header>
       <h1>Portfolio</h1>
     </header>
@@ -18,19 +24,16 @@ layout: default
       {% for post in site.posts %}
         <div class="grid__item {{ post.category }}">
           <div class="slider">
-            <div class="slider__item"><img src="{{post.images[0].url}}" alt="Dummy" /></div>
-            <div class="slider__item"><img src="{{post.images[1].url}}" alt="Dummy" /></div>
-            <div class="slider__item"><img src="{{post.images[2].url}}" alt="Dummy" /></div>
+          {% for image_hash in post.images %}
+            <div class="slider__item"><img src="{{post.images[forloop.index0].url}}" alt="Dummy" /></div>
+          {% endfor %}
           </div>
           <div class="meta">
             <h3 class="meta__title">
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h3>
             <span class="meta__brand">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <span class="meta__price">{{category}}</span>
-
           </div>
-          <button class="action action--button action--buy"><i class="fa fa-arrow-right"></i><span class="text-hidden">Add to cart</span></button>
         </div>        
       {% endfor %}  
     </section>

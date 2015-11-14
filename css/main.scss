@@ -1,18 +1,26 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Alejandro García Salas portfolio scss
 ---
 @charset "utf-8";
 
-// @import 'normalize';
-// @import 'skeleton';
-
 // Variables
 @import 'variables';
+
+// Skeleton
+@import 'normalize';
+@import 'skeleton/skeleton';
+
+// Utilities
+@import 'utilities';
+
 //Fonts
 @import 'fonts';
+
 // General demo styles & header
 @import 'custom';
+
 // Flickity gallery styles
 @import 'flickity';
+
 // Component styles
 @import 'component';
