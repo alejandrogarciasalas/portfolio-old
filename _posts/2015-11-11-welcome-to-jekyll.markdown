@@ -1,8 +1,23 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "An awesome website"
 date:   2015-11-11 22:16:56
-categories: jekyll update
+category: web
+
+images:
+
+  - url: https://unsplash.it/500/?random
+    alt: Cypripedium Calceolum
+    title: Cypripedium Calceolum
+
+  - url: https://unsplash.it/500/?random
+    alt: Hello bumblebee !
+    title: Hello bumblebee !
+
+  - url: https://unsplash.it/500/?random
+    alt: Hello bumblebee !
+    title: Hello bumblebee !
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

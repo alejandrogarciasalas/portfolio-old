@@ -43,19 +43,24 @@ layout: default
       <!-- Grid sizer for a fluid Isotope (Masonry) layout -->
       <div class="grid__sizer"></div>
       <!-- Grid items -->
-      <div class="grid__item web">
-        <div class="slider">
-          <div class="slider__item"><img src="https://unsplash.it/500/?random" alt="Dummy" /></div>
-          <div class="slider__item"><img src="https://unsplash.it/500/?random" alt="Dummy" /></div>
-          <div class="slider__item"><img src="https://unsplash.it/500/?random" alt="Dummy" /></div>
-        </div>
-        <div class="meta">
-          <h3 class="meta__title">Dummy Product</h3>
-          <span class="meta__brand">Dummy Brand</span>
-          <span class="meta__price">$99</span>
-        </div>
-        <button class="action action--button action--buy"><i class="fa fa-arrow-right"></i><span class="text-hidden">Add to cart</span></button>
-      </div>  
+      {% for post in site.posts %}
+        <div class="grid__item {{ post.category }}">
+          <div class="slider">
+            <div class="slider__item"><img src="{{post.images[0].url}}" alt="Dummy" /></div>
+            <div class="slider__item"><img src="{{post.images[1].url}}" alt="Dummy" /></div>
+            <div class="slider__item"><img src="{{post.images[2].url}}" alt="Dummy" /></div>
+          </div>
+          <div class="meta">
+            <h3 class="meta__title">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <span class="meta__brand">{{ post.date }}</span>
+            <span class="meta__price">{{category}}</span>
+
+          </div>
+          <button class="action action--button action--buy"><i class="fa fa-arrow-right"></i><span class="text-hidden">Add to cart</span></button>
+        </div>        
+      {% endfor %}  
     </section>
     <!-- /grid-->
   </div>
