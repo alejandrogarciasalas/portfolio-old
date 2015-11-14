@@ -2,19 +2,19 @@
 layout: post
 title:  "An awesome website"
 date:   2015-11-11 22:16:56
-category: mobile
+category: design
 
 images:
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/800/450/?random
     alt: Cypripedium Calceolum
     title: Cypripedium Calceolum
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/800/450/?random
     alt: Hello bumblebee !
     title: Hello bumblebee !
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/800/450/?random
     alt: Hello bumblebee !
     title: Hello bumblebee !
 

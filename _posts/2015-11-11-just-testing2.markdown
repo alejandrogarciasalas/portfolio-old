@@ -6,15 +6,15 @@ category: mobile
 
 images:
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/350/?random
     alt: Cypripedium Calceolum
     title: Cypripedium Calceolum
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/350/?random
     alt: Hello bumblebee !
     title: Hello bumblebee !
 
-  - url: https://unsplash.it/500/?random
+  - url: https://unsplash.it/350/?random
     alt: Hello bumblebee !
     title: Hello bumblebee !
 
