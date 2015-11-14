@@ -17,24 +17,11 @@ html {
 }
 
 
-/* header */
-header {
-	width: 90%;
-	max-width: 69em;
-	margin: 0 auto;
-	padding: 0 1.875em 1em;
-	text-align: center;
-}
-
-header h1 {
-	font-size: 3.5em;
-	font-weight: 400;
-	line-height: 1.3;
-}
-
+/*	sub header */
 .sub-header{
-	margin: 1.8% 0 3% 1%;
+	margin: 1.8% 0 3% 1.8%;
 }
+
 
 .site-title{
 	margin: 0;
@@ -48,24 +35,43 @@ header h1 {
 		}
 	}
 }
-
-.contact-title{
-	margin: 0;
-	font-weight: 300;
-	a{
-	}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .site-title{ display: none; }
 }
 
 nav{
-	position: relative;
-	left: 11%;
 	font-family: 'Circular Book';
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	a{
 		color: rgba(61, 70, 77, 0.6);
-		margin-left: 5%;
 		&:hover{
 			color: #444;
 		}
 	}
+}
+
+.top-nav{
+	top: 1.4%;
+	left: 8%;
+	position: relative;
+	a{
+		margin-left: 5%;
+		&:hover{
+		}
+	}
+}
+
+/* header */
+header {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em 1em;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3.5em;
+	font-weight: 400;
+	line-height: 1.3;
 }
