@@ -1,51 +1,51 @@
 ---
 layout: default
 ---
-  <!-- Bottom bar with filter and cart info -->
-  <!-- Main view -->
-  <div class="view">
-    <!-- Blueprint header -->
-    <div class="sub-header">
-      <div class="row">
-        <div class="four columns"><h2 class="site-title"><a href="">Alejandro García Salas'</a></h2></div>
-        <div class="three columns offset-by-five text-right">
-          <nav class="top-nav">
-            <a href="">About</a>
-            <a href="">Contact</a>
-          </nav>
-        </div>
+<!-- Bottom bar with filter -->
+<!-- Main view -->
+<div class="view">
+  <!-- Blueprint header -->
+  <div class="sub-header">
+    <div class="row">
+      <div class="four columns"><h2 class="site-title"><a href="">Alejandro García Salas'</a></h2></div>
+      <div class="three columns offset-by-five text-right">
+        <nav class="top-nav">
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
       </div>
     </div>
-    <header>
-      <h1>Portfolio</h1>
-      <nav class="bottom-nav">
-        <a href="">About</a>
-        <a href="">Contact</a>
-      </nav>
-    </header>
-    <!-- Grid -->
-    <section class="grid grid--loading">
-      <!-- Loader -->
-      <img class="grid__loader" src="assets/images/grid.svg" width="60" alt="Loader image" />
-      <!-- Grid sizer for a fluid Isotope (Masonry) layout -->
-      <div class="grid__sizer"></div>
-      <!-- Grid items -->
-      {% for post in site.posts %}
-        <div class="grid__item {{ post.category }}">
-          <div class="slider">
-          {% for image_hash in post.images %}
-            <div class="slider__item"><img src="{{post.images[forloop.index0].url}}" alt="Dummy" /></div>
-          {% endfor %}
-          </div>
-          <div class="meta">
-            <h3 class="meta__title">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-            <span class="meta__brand">{{ post.date | date: "%b %-d, %Y" }}</span>
-          </div>
-        </div>        
-      {% endfor %}  
-    </section>
-    <!-- /grid-->
   </div>
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  <header>
+    <h1>Portfolio</h1>
+    <nav class="bottom-nav">
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
+  <!-- Grid -->
+  <section class="grid grid--loading">
+    <!-- Loader -->
+    <img class="grid__loader" src="assets/images/grid.svg" width="60" alt="Loader image" />
+    <!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+    <div class="grid__sizer"></div>
+    <!-- Grid items -->
+    {% for post in site.posts %}
+      <div class="grid__item {{ post.category }}">
+        <div class="slider">
+        {% for image_hash in post.images %}
+          <div class="slider__item"><img src="{{post.images[forloop.index0].url}}" alt="Dummy" /></div>
+        {% endfor %}
+        </div>
+        <div class="meta">
+          <h3 class="meta__title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <span class="meta__brand">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </div>        
+    {% endfor %}  
+  </section>
+  <!-- /grid-->
+</div>
+<!-- /view -->
