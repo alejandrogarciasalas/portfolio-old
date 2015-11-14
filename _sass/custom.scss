@@ -33,17 +33,39 @@ header h1 {
 }
 
 .sub-header{
-	margin: 1.8% 1% 3% 3%;
+	margin: 1.8% 0 3% 1%;
 }
 
 .site-title{
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.8rem;
+	letter-spacing: -.05rem;
+	a{
+
+		&:hover{
+			color: black;
+		}
+	}
 }
 
 .contact-title{
 	margin: 0;
-	font-size: 1.5rem;
-	color: rgba(61, 70, 77, 0.6);
+	font-weight: 300;
+	a{
+	}
+}
+
+nav{
+	position: relative;
+	left: 11%;
+	font-family: 'Circular Book';
+	font-size: 1.4rem;
+	a{
+		color: rgba(61, 70, 77, 0.6);
+		margin-left: 5%;
+		&:hover{
+			color: #444;
+		}
+	}
 }

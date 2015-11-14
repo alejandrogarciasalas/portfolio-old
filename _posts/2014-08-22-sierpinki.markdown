@@ -1,20 +1,16 @@
 ---
 layout: post
-title:  "non-stop"
-date:   2012-10-26 22:16:56
-category: mobile
+title:  "Sierpinski"
+date:   2014-08-22
+category: digital-art
 
 images:
 
-  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480.jpeg
+  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/Sierpinski/screenshot-2.png
     alt: Cypripedium Calceolum
     title: Cypripedium Calceolum
 
-  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480%20%281%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
-
-  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480%20%282%29.jpeg
+  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/Sierpinski/screenshot-1.png
     alt: Hello bumblebee !
     title: Hello bumblebee !
 
