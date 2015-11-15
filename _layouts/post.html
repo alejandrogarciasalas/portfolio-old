@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include header-post.html %}
 <div class="post">
 
   <header class="post-header">
@@ -10,8 +11,23 @@ layout: default
 
   <article>
   	<div class="container">
-	    {{ content }}
-  	</div>
+      <div class="row">
+        <div class="offset-by-one four columns">
+          {{ content }}
+        </div>
+        <div class="offset-by-two five columns">
+          <img class="scale-with-grid" src="{{page.images[0].url}}">
+        </div>
+      </div>
+      <hr></hr>
+      <div class="row" style="margin: 0 1.5%;">
+      {% for _ in page.images %}
+        <div class="four columns">
+          <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
+        </div>
+      {% endfor %}
+      </div>
+    </div>
   </article>
 
 </div>
