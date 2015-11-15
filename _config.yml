@@ -2,10 +2,10 @@
 title: Portfolio | Alejandro García Salas
 email: garciasalasalejandro@gmail.com
 description: This is Alejandro García Salas' Portfolio
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
-url: "http://alejandrogarciasalas.me" # the base hostname & protocol for your site
-# baseurl: ""
-# url: ""
+# baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+# url: "http://alejandrogarciasalas.me" # the base hostname & protocol for your site
+baseurl: ""
+url: ""
 twitter_username: findAlejandro
 github_username:  alejandrogarciasalas
 

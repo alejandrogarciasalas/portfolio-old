@@ -11,8 +11,6 @@ images:
     title: Cypripedium Calceolum
 
 ---
-an aquarela like procedural painting
+aquarelaWeb is a program in which the user can draw a procedural drawing based on a buffered image. After the user hovers and clicks the mouse in a drawing motion the paint brush's effects are immediately visible. This feedback allows the user to respond to changes in the image and influence the process directly.
 
-description: aquarelaWeb is a program in which the user can draw a procedural drawing based on a buffered image. After the user hovers and clicks the mouse in a drawing motion the paint brush's effects are immediately visible. This feedback allows the user to respond to changes in the image and influence the process directly.
-
-Note: This work of art is part of my collection Paint Brushes. The intention of these experiments is to obtain varied results using a simple principle: users can draw free-form shapes with a predefined generated design, yet the control remains exclusively in the hands of the user. The paint brush provides a connection between the automation of work and the individual ideas and energy of the user.
+**Note:** This work of art is part of my collection Paint Brushes. The intention of these experiments is to obtain varied results using a simple principle: users can draw free-form shapes with a predefined generated design, yet the control remains exclusively in the hands of the user. The paint brush provides a connection between the automation of work and the individual ideas and energy of the user.
