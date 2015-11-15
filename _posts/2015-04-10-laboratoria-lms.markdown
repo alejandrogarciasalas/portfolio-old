@@ -2,7 +2,7 @@
 layout: post
 title:  "Laboratoria's LMS"
 date:   2014-08-12
-category: digital-art
+category: web
 
 images:
 

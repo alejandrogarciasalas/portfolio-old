@@ -2,7 +2,7 @@
 layout: post
 title:  "Flash Pay"
 date:   2014-08-12
-category: digital-art
+category: design
 
 images:
 

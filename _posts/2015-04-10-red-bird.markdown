@@ -2,7 +2,7 @@
 layout: post
 title:  "Red Bird"
 date:   2014-08-12
-category: digital-art
+category: miscellaneous
 
 images:
 
