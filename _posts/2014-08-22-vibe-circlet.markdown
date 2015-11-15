@@ -11,4 +11,10 @@ images:
     title: Cypripedium Calceolum
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+_Vibe Circlet_ is a generator of fingerprint visualizations from an input sound. The purpose is not only to visualize live sounds but to create a unique graphic piece shaped by the properties of the song itself. The color opacity and wave visualized is modulated according to the beats intensity.
+
+__Credits:__ the song use is  [_High Time_](https://www.youtube.com/watch?v=58JB1796wIQ) by [_LEGS_](http://www.feellegs.com/) listen their EP (or download this song) [here](https://soundcloud.com/feellegs/sets/legs-ep-c-2013).
+
+**libraries used**:
+
+* [Minim](http://code.compartmental.net/tools/minim/) by [Damien Di Fede](http://code.compartmental.net/about/)  

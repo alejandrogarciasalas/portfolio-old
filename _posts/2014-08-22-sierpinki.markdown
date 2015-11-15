@@ -15,4 +15,6 @@ images:
     title: Hello bumblebee !
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+An interesting looking 3D visualization of the Sierpinski triangle based on [Marc Vanlindt's Sierpinski Pyramid](http://www.vanlindt.be/2014/01/02/processing-sierpinski-pyramid/)
+
+__description:__ _Sierpinski_ exploes sierpinski fractal from a three dimensional perspective. This animation uses built in [_Processing_](https://processing.org/) P3D renderization

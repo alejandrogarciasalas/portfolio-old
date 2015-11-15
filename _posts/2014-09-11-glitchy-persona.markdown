@@ -11,4 +11,8 @@ images:
     title: Cypripedium Calceolum
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+_A glitch in the system?_
+
+A glitch in informatics is usually defined as a short-lived fault in a system. It is often used to describe a transient fault that corrects itself, and is therefore difficult to troubleshoot. The "glitch filter" serve as a metaphor for a person that defies the system or status quo in the digital space. This is why in the followin work [Julian Assange](http://en.wikipedia.org/wiki/Julian_Assange), [Edward Snowden](http://en.wikipedia.org/wiki/Edward_Snowden), [Aaron Swartz](http://en.wikipedia.org/wiki/Aaron_Swartz), [Anonymous](http://en.wikipedia.org/wiki/Anonymous_%28group%29) and [The Pirate Bay](http://en.wikipedia.org/wiki/The_Pirate_Bay) founders were selected.
+
+__Disclaimer:__ The standpoint or believes of the people portrayed in these works of art are independent of mine.

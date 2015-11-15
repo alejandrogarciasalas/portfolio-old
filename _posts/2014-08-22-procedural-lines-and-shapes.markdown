@@ -11,4 +11,4 @@ images:
     title: Cypripedium Calceolum
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+_Procedural Lines and Shapes_ is a collection of drawing machines. The digital patterns are based on looping, repetition, pseudo-randomness, nose functions and the interaction of different object-oriented programming entities. Each drawing manifests the code which by it was generated.

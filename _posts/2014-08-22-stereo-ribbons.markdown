@@ -11,4 +11,8 @@ images:
     title: Cypripedium Calceolum
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+_Stereo Ribbons is based on ["Tendrils" by Jeff Traer](http://murderandcreate.com/physics/tendrils/index.html) using the [Traer Physics Library](http://murderandcreate.com/physics/)_
+
+_Stereo Ribbons_ explores sound visualization following two basic rules, new "ribbons" will be generated according to the beat of the input sound and the code will hit the flock of ribbons whenever a beat is detected. The result is something organic. An artistic space of forms and rich colors is generated out of the music beats and out of the randomly chosen predefined color palettes.
+
+__Credits:__ the song use is  _So Obvious_ by [_LEGS_](http://www.feellegs.com/) listen their EP (or download this song) [here](https://soundcloud.com/feellegs/sets/legs-ep-c-2013).

@@ -19,4 +19,9 @@ images:
     title: Hello bumblebee !
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+Block Bear is a smart physics based puzzle action game. The objective is to help Joe the blocky bear reach his precious goal by destroying all types of blocks crates! Magic blocks! TNT! Bubbles! And more! With 5 engaging stories, each one featuring awesome and fantastic gameplay twists! 
+
+But watch out; don’t let him touch the ground neither fall or it will be game over!
+
+Good timing and smart thinking are the key for completing your goal, a must have indeed!
+

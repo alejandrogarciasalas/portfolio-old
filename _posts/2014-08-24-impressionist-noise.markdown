@@ -11,4 +11,5 @@ images:
     title: Cypripedium Calceolum
 
 ---
-"Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
+an impressionist painting generator inspired by [Matt DesLauries](http://mattdesl.svbtle.com/)'s [Generative Impressionism](https://medium.com/@mattdesl/generative-impressionism-afa98ccb97da)
+
