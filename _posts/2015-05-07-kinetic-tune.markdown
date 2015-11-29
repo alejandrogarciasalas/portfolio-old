@@ -3,6 +3,7 @@ layout: post
 title:  "Kinetic Tune"
 date:   2015-05-07
 category: digital-art
+video-url-vimeo: https://player.vimeo.com/video/134586759
 
 images:
 

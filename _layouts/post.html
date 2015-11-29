@@ -19,7 +19,11 @@ layout: default
             {{ content }}
           </div>
           <div class="offset-by-two five columns">
-            <img class="scale-with-grid" src="{{page.images[0].url}}">
+            {% if page.video-url-vimeo %}
+              <iframe src="{{ page.video-url-vimeo }}" width="400" height="250.4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              {% else %}
+              <img class="scale-with-grid" src="{{page.images[0].url}}">
+            {% endif %}
           </div>
         </div>
         {% if page.images[1] %}
