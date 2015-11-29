@@ -25,3 +25,6 @@ But watch out; don’t let him touch the ground neither fall or it will be game 
 
 Good timing and smart thinking are the key for completing your goal, a must have indeed!
 
+
+[![available-on-appstore](https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/available-on-appstore.jpg)](https://itunes.apple.com/us/app/block-bear/id507322802?mt=8)
+
