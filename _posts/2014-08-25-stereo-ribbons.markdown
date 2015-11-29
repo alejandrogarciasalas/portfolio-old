@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stereo Ribbons"
-date:   2014-08-22
+date:   2014-08-25
 category: digital-art
 
 images:

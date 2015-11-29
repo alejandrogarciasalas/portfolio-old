@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Glitchy Persona"
-date:   2014-08-12
+date:   2014-09-11
 category: digital-art
 
 images:

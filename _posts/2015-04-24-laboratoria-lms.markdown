@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Laboratoria's LMS"
-date:   2014-08-12
+date:   2015-04-24
 category: web
 
 images:

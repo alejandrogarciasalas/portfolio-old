@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kinetic Tune"
-date:   2014-08-12
+date:   2015-05-07
 category: digital-art
 
 images:

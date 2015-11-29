@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sierpinski"
-date:   2014-08-22
+date:   2014-08-20
 category: digital-art
 
 images:

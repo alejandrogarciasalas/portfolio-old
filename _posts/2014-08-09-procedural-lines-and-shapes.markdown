@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Procedural Lines and Shapes"
-date:   2014-08-22
+date:   2014-08-09
 category: digital-art
 
 images:

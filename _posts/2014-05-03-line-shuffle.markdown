@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "lineShuffle"
-date:   2014-08-12
+date:   2014-05-13
 category: digital-art
 
 images:

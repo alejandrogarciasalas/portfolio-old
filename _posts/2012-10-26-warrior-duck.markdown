@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Warrior Duck"
-date:   2012-10-26 22:16:56
+date:   2012-10-26
 category: mobile
 
 images:

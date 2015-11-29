@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Maraña"
-date:   2014-08-22
+date:   2014-08-23
 category: digital-art
 
 images:

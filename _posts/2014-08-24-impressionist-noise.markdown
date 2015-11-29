@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Impressionist Noise"
-date:   2014-08-28
+date:   2014-08-24
 category: digital-art
 
 images:
