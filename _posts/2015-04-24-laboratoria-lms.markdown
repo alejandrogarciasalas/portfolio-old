@@ -12,4 +12,4 @@ images:
 
 ---
 
-Laboratoria is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector. As one of the leading instructors I did not only take part in the curriculum development but also creating internal tools when needed. I worked developing a Learning Management System (LMS) for managing and delivering course material, I was involved in the design thinking, graphic design (using Sketch 3) and front-end and back-end web development. I worked as a product owner proxy. 
+[Laboratoria](http://laboratoria.la) is a tech social enterprise that empowers young women from low-income backgrounds by giving them access to education and work in the digital sector. As one of the leading instructors I did not only take part in the curriculum development but also creating internal tools when needed. I worked developing a Learning Management System (LMS) for managing and delivering course material, I was involved in the design thinking, graphic design (using Sketch 3) and front-end and back-end web development. I worked as a product owner proxy. 

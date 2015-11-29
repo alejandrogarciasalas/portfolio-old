@@ -21,4 +21,4 @@ images:
 ---
 "non-stop" is a real time puzzle game where the objective is to reach the green squares without hitting any walls, it may seem simple at the beginning but you will eventually see how impossible it can get! And remember we won't be stopping at any time; timing and direction are the key for success in this game! immerse yourself now in this beautiful designed world, a must have indeed!
 
-[![available-on-appstore](https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/available-on-appstore.jpg)](https://itunes.apple.com/us/app/warrior-duck/id569197051?mt=8)
+[![available-on-appstore](https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/available-on-appstore.jpg)](https://itunes.apple.com/us/app/non-stop/id507904286?mt=8)
