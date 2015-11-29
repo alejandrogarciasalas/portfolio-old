@@ -19,7 +19,7 @@ layout: default
           <img class="scale-with-grid" src="{{page.images[0].url}}">
         </div>
       </div>
-      {% if page.images[1] == empty %}
+      {% if page.images[1] %}
         <hr></hr>
         <div class="row" style="margin: 0 1.5%;">
         {% for _ in page.images %}
