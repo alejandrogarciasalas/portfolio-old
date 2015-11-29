@@ -30,3 +30,8 @@ _The following work is based on [P_4_2_1_01.pde](http://www.generative-gestaltun
 Modifications: The images have been cropped to properly fit the intended design.
 
 Terms of Use: This work is licensed under  the [Creative Commons Attribution 2.0 Generic License](https://creativecommons.org/licenses/by-nc-sa/2.0/).
+
+
+<br>
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/alejandrogarciasalas/chichaCollage" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork alejandrogarciasalas/chichaCollage on GitHub">Fork</a>

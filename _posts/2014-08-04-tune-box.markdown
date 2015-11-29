@@ -19,3 +19,8 @@ __libraries used__:
 
 * [peasycam](http://mrfeinberg.com/peasycam/) by [Jonathan Feinberg](http://mrfeinberg.com/)  
 * [Minim](http://code.compartmental.net/tools/minim/) by [Damien Di Fede](http://code.compartmental.net/about/) 
+
+
+<br>
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/alejandrogarciasalas/TuneBox" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork alejandrogarciasalas/TuneBox on GitHub">Fork</a>

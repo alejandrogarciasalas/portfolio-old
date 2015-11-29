@@ -11,27 +11,34 @@ layout: default
 
   <article>
   	<div class="container">
-      <div class="row">
-        <div class="offset-by-one four columns">
-          {{ content }}
-        </div>
-        <div class="offset-by-two five columns">
-          <img class="scale-with-grid" src="{{page.images[0].url}}">
-        </div>
-      </div>
-      {% if page.images[1] %}
-        <hr></hr>
-        <div class="row" style="margin: 0 1.5%;">
-        {% for _ in page.images %}
-          <div class="four columns">
-            <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
+    {% if page.custom %}
+      {{ content }}
+    {% else %}
+        <div class="row">
+          <div class="offset-by-one four columns">
+            {{ content }}
           </div>
-        {% endfor %}
+          <div class="offset-by-two five columns">
+            <img class="scale-with-grid" src="{{page.images[0].url}}">
+          </div>
         </div>
-      {% endif %}
+        {% if page.images[1] %}
+          <hr></hr>
+          <div class="row" style="margin: 0 1.5%;">
+          {% for _ in page.images %}
+            <div class="four columns">
+              <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
+            </div>
+          {% endfor %}
+          </div>
+        {% endif %}
+    {% endif %}
+
       <hr style="margin-bottom: 3%;"></hr>
       <p style="margin-bottom: 3.5%; color: rgba(61,70,77,0.6);" class="text-center">© 2015 Alejandro García Salas, unless otherwise noted.</p>
     </div>
   </article>
-
 </div>
+
+<!-- Place this tag right after the last button or just before your close body tag. -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
