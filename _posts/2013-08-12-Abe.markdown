@@ -2,6 +2,7 @@
 layout: post
 title:  "Abe"
 date:   2013-08-12
+custom: True
 category: design
 
 images:
@@ -10,6 +11,20 @@ images:
     alt: Cypripedium Calceolum
     title: Cypripedium Calceolum
 
----
+  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/design/Abe/Abe-custom.jpg
+    alt: Cypripedium Calceolum
+    title: Cypripedium Calceolum
 
-As part of my highschool student council I designed and created my school's mascot.
+---
+<div class="text-center">
+<p>As part of my highschool student council I designed and created my school's mascot.</p>
+<div class="row">
+	<div class="six columns">
+		<h6>Design</h6>
+		<img src="https://dl.dropboxusercontent.com/u/30763013/portfolio/images/design/Abe/Abe-mascot.png">
+	</div>
+	<div class="six columns">
+		<h6>Costume</h6>
+		<img src="https://dl.dropboxusercontent.com/u/30763013/portfolio/images/design/Abe/Abe-custom.jpg">
+	</div>
+</div>
