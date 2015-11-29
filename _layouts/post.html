@@ -19,14 +19,16 @@ layout: default
           <img class="scale-with-grid" src="{{page.images[0].url}}">
         </div>
       </div>
-      <hr></hr>
-      <div class="row" style="margin: 0 1.5%;">
-      {% for _ in page.images %}
-        <div class="four columns">
-          <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
+      {% if page.images[1] == empty %}
+        <hr></hr>
+        <div class="row" style="margin: 0 1.5%;">
+        {% for _ in page.images %}
+          <div class="four columns">
+            <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
+          </div>
+        {% endfor %}
         </div>
-      {% endfor %}
-      </div>
+      {% endif %}
       <hr style="margin-bottom: 3%;"></hr>
       <p style="margin-bottom: 3.5%; color: rgba(61,70,77,0.6);" class="text-center">© 2015 Alejandro García Salas, unless otherwise noted.</p>
     </div>
