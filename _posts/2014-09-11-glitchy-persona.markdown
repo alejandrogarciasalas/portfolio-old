@@ -7,8 +7,8 @@ category: digital-art
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/GlitchyPersona/glitchyAnonymous/screenshot-1.png
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Glitchy Persona 1
+    title: Glitchy Persona 1
 
 ---
 _A glitch in the system?_

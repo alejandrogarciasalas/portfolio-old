@@ -7,16 +7,16 @@ category: mobile
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480.jpeg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: non-stop 1
+    title: non-stop 1
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480%20%281%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: non-stop 2
+    title: non-stop 2
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/non-stop/screen480x480%20%282%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: non-stop 3
+    title: non-stop 3
 
 ---
 "non-stop" is a real time puzzle game where the objective is to reach the green squares without hitting any walls, it may seem simple at the beginning but you will eventually see how impossible it can get! And remember we won't be stopping at any time; timing and direction are the key for success in this game! immerse yourself now in this beautiful designed world, a must have indeed!

@@ -7,16 +7,16 @@ category: mobile
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/block%20bear/screen480x480.jpeg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Block Bear 1
+    title: Block Bear 1
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/block%20bear/screen480x480%20%281%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: Block Bear 2
+    title: Block Bear 2
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/block%20bear/screen480x480%20%282%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: Block Bear 3
+    title: Block Bear 3
 
 ---
 Block Bear is a smart physics based puzzle action game. The objective is to help Joe the blocky bear reach his precious goal by destroying all types of blocks crates! Magic blocks! TNT! Bubbles! And more! With 5 engaging stories, each one featuring awesome and fantastic gameplay twists! 

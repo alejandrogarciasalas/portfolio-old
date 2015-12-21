@@ -7,16 +7,16 @@ category: mobile
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/warrior%20duck/screen480x480.jpeg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: warrior duck 1
+    title: warrior duck 1
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/warrior%20duck/screen480x480%20%281%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: warrior duck 2
+    title: warrior duck 2
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/warrior%20duck/screen480x480%20%282%29.jpeg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: warrior duck 3
+    title: warrior duck 3
 
 ---
 "Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 

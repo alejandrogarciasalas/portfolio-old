@@ -8,8 +8,8 @@ video-url-vimeo: https://player.vimeo.com/video/134586759
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/KineticTune/screenshot-1.png
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Kinetic Tune 1
+    title: Kinetic Tune 1
 
 ---
 a particle cloud that responds to movement and music

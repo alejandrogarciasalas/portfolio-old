@@ -65,6 +65,11 @@
 			initIsotope();
 			initEvents();
 			classie.remove(grid, 'grid--loading');
+			var grid__items = document.getElementsByClassName('grid__item');
+			for (var i=0; i < grid__items.length; i++){
+				classie.add(grid__items[i], 'animated');
+				classie.add(grid__items[i], 'fade-in-down');
+			}
 		});
 	}
 

@@ -7,16 +7,16 @@ category: digital-art
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/Chicha%20Collage/portfolio_item_13_3.jpg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Chicha Collage 1
+    title: Chicha Collage 1
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/Chicha%20Collage/portfolio_item_13_4.jpg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: Chicha Collage 2
+    title: Chicha Collage 2
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/Chicha%20Collage/portfolio_item_13_5.jpg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+    alt: Chicha Collage 3
+    title: Chicha Collage 3
 
 ---
 _Generative collages made out of chicha posters_

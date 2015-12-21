@@ -8,12 +8,12 @@ category: design
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/design/Abe/Abe-mascot.png
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Abe 1
+    title: Abe 1
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/design/Abe/Abe-custom.jpg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Abe 2
+    title: Abe 2
 
 ---
 <div class="text-center">

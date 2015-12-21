@@ -7,8 +7,8 @@ category: digital-art
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/lineShuffle/150527_144230_27.jpg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: lineShuffle 1
+    title: lineShuffle 1
 
 ---
 _lines random distribution experiment_

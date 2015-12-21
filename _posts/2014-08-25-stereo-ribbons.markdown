@@ -7,8 +7,8 @@ category: digital-art
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/StereoRibbons/screenshot-1.png
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Stereo Ribbons
+    title: Stereo Ribbons
 
 ---
 _Stereo Ribbons is based on ["Tendrils" by Jeff Traer](http://murderandcreate.com/physics/tendrils/index.html) using the [Traer Physics Library](http://murderandcreate.com/physics/)_

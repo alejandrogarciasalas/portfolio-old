@@ -7,8 +7,8 @@ category: digital-art
 images:
 
   - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/TuneBox/screenshot-1.png
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
+    alt: Tune Box 1
+    title: Tune Box 1
 
 ---
 Tune Box is a dynamic 3D minimal sound architecture based on the beat analysis of an input sound.
