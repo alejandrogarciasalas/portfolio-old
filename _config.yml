@@ -11,3 +11,5 @@ github_username:  alejandrogarciasalas
 
 # Build settings
 markdown: kramdown
+sass:
+  compressed: true

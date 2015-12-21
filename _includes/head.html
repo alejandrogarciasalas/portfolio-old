@@ -1,11 +1,39 @@
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	 
-	<!-- SEO -->
-	 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- SEO--> 
+  <meta name="author" content="Alejandro García Salas">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="Alejandro, Garcia, Salas, technology, design, entrepreneurship, portfolio"> 
+
+  <!-- Open Graph--> 
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="http://alejandrogarciasalas.me">
+  <meta property="og:image" content="https://dl.dropboxusercontent.com/u/30763013/blog/images/avatar-personal-site.jpg">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:site_name" content="Alejandro García Salas">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">   
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:url" content="http://alejandrogarciasalas.me">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:site" content="http://alejandrogarciasalas.me">
+  <meta name="twitter:creator" content="Alejandro García Salas">
+  <meta name="msapplication-TileColor" content="#3d464d">
+  <meta name="msapplication-TileImage" content="https://dl.dropboxusercontent.com/u/30763013/blog/images/avatar-personal-site.jpg">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Theme Color Android Google Chrome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="theme-color" content="#3d464d">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
