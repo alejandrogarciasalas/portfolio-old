@@ -9,6 +9,9 @@ url: "http://alejandrogarciasalas.me" # the base hostname & protocol for your si
 twitter_username: findAlejandro
 github_username:  alejandrogarciasalas
 
+# Google analytics
+google_analytics: True
+
 # Build settings
 markdown: kramdown
 sass:
