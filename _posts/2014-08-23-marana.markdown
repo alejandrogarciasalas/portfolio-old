@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Maraña"
 date:   2014-08-23
 category: digital-art

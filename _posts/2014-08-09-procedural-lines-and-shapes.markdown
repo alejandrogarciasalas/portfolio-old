@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Procedural Lines and Shapes"
 date:   2014-08-09
 category: digital-art

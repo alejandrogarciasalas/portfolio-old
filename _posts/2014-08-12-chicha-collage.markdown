@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Chicha Collage"
 date:   2014-08-12
 category: digital-art

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Sierpinski"
 date:   2014-08-20
 category: digital-art

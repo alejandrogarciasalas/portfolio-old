@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Kinetic Tune"
 date:   2015-05-07
 category: digital-art

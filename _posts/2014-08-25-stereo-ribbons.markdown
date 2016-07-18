@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Stereo Ribbons"
 date:   2014-08-25
 category: digital-art

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Aquarela Web"
 date:   2014-08-28
 category: digital-art

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Tune Box"
 date:   2014-08-04
 category: digital-art

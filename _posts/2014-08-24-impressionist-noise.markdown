@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Impressionist Noise"
 date:   2014-08-24
 category: digital-art
