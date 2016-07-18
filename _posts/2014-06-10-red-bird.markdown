@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Red Bird"
 date:   2014-06-10
 category: miscellaneous
@@ -12,3 +12,5 @@ images:
 
 ---
 A drawing of a bird using [Procreate](http://procreate.si/) and [Adonit's Jot Touch Pro](http://www.amazon.com/Adonit-Bluetooth-Pressure-Sensitive-Stylus/dp/B00AO1L1RG)
+
+<img class="scale-with-grid" src="{{page.images[0].url}}" alt="Dummy" />

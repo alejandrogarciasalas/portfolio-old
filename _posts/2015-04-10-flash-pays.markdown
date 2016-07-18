@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Flash Pay"
 date:   2015-04-10
 category: design
