@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-columns
 title:  "Warrior Duck"
 date:   2012-10-26
 category: mobile

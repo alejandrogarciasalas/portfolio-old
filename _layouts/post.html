@@ -1,48 +1,12 @@
 ---
 layout: default
 ---
-{% include header-post.html %}
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-</header>
-
-  <article>
-  	<div class="container">
-    {% if page.custom %}
-      {{ content }}
-    {% else %}
-        <div class="row">
-          <div class="offset-by-one four columns">
-            {{ content }}
-          </div>
-          <div class="offset-by-two five columns">
-            {% if page.video-url-vimeo %}
-              <iframe src="{{ page.video-url-vimeo }}" width="400" height="250.4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              {% else %}
-              <img class="scale-with-grid" src="{{page.images[0].url}}">
-            {% endif %}
-          </div>
-        </div>
-        {% if page.images[1] %}
-          <hr></hr>
-          <div class="row" style="margin: 0 1.5%;">
-          {% for _ in page.images %}
-            <div class="four columns">
-              <img class="scale-with-grid" src="{{page.images[forloop.index0].url}}" alt="Dummy" />
-            </div>
-          {% endfor %}
-          </div>
-        {% endif %}
-    {% endif %}
-
-      <hr style="margin-bottom: 3%;"></hr>
-      <p style="margin-bottom: 3.5%; color: rgba(61,70,77,0.6);" class="text-center">© 2015 Alejandro García Salas, unless otherwise noted.</p>
-    </div>
-  </article>
+{% include post-page_header.html %}
+<div class="post container">
+    {% include post-header.html %}
+      <article>
+        {{ content }}
+      </article>
+    {% include post-footer.html %}
 </div>
-
-<!-- Place this tag right after the last button or just before your close body tag. -->
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
