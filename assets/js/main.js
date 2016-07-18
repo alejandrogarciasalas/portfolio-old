@@ -119,20 +119,7 @@
 			recalcFlickities()
 			iso.layout();
 		}, 50));
-
-		// add to cart
-		// [].slice.call(grid.querySelectorAll('.grid__item')).forEach(function(item) {
-		// 	item.querySelector('.action--buy').addEventListener('click', addToCart);
-		// });
 	}
-
-	// function addToCart() {
-	// 	classie.add(cart, 'cart--animate');
-	// 	setTimeout(function() {cartItems.innerHTML = Number(cartItems.innerHTML) + 1;}, 200);
-	// 	onEndAnimation(cartItems, function() {
-	// 		classie.remove(cart, 'cart--animate');
-	// 	});
-	// }
 
 	function recalcFlickities() {
 		for(var i = 0, len = flkties.length; i < len; ++i) {
