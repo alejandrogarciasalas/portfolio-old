@@ -25,7 +25,8 @@ layout: home
     <!-- Grid items -->
     {% for post in site.posts %}
       <div class="grid__item {{ post.category }}">
-        <div class="slider">
+
+        <div {% if post.images.size > 1 %} class="slider" {% endif %}>
         {% for _ in post.images %}
           <div class="slider__item"><img src="{{post.images[forloop.index0].url}}" alt="{{post.images[forloop.index0].alt}}" title="{{post.images[forloop.index0].title}}" /></div>
         {% endfor %}
