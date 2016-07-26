@@ -11,8 +11,6 @@ images:
     title: Aquarela Web 1
 
 ---
-<img src="https://dl.dropboxusercontent.com/u/30763013/portfolio/images/digital%20art/aquarelaWeb/screenshot-1.png">
-
 <div class="container">
 	<p>
 		AquarelaWeb is a program in which the user can draw a procedural drawing based on a buffered image. After the user hovers and clicks the mouse in a drawing motion the paint brush's effects are immediately visible. This feedback allows the user to respond to changes in the image and influence the process directly.
