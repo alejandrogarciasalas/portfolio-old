@@ -13,6 +13,8 @@ images:
 ---
 _lines random distribution experiment_
 
+Made with Processing. This is essentially me playing around. I personally like the resulting images.
+
 <br>
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/alejandrogarciasalas/line-shuffle" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork alejandrogarciasalas/line-shuffle on GitHub">Fork</a>
+
+<a href="https://github.com/alejandrogarciasalas/line-shuffle">View Project On GitHub</a>

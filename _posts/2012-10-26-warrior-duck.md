@@ -19,6 +19,8 @@ images:
     title: warrior duck 3
 
 ---
+_This is the third app I published in the Apple Appstore. It is inspired in the pre-inca culture moche. I made this app at the age of 15 and haven't updated it ever since. I took part in the whole process: game design, graphic design (using Adobe Illustrator), level design and development._
+
 "Ai Apaec" the cutthroat God is angry and has stolen the village reliques, now the youngest duckling has taken his defunct grandfather's weapons in order to become their salvation! … BUT it's not going to be easy at all ... he will have to face different challenges: from Ai Apaec's evil minions up to spikes and flying projectiles! Join "Moch" The Warrior Duck in this fantastic adventure! 
 
 [![available-on-appstore](https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/available-on-appstore.jpg)](https://itunes.apple.com/us/app/warrior-duck/id569197051?mt=8)

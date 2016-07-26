@@ -19,6 +19,8 @@ images:
     title: Block Bear 3
 
 ---
+_This is the first app I published to the Apple Appstore. I did this at the age of 14 and haven't updated it ever since. I took part in the whole process: game design, graphic design (using Adobe Illustrator), level design and development._
+
 Block Bear is a smart physics based puzzle action game. The objective is to help Joe the blocky bear reach his precious goal by destroying all types of blocks crates! Magic blocks! TNT! Bubbles! And more! With 5 engaging stories, each one featuring awesome and fantastic gameplay twists! 
 
 But watch out; don’t let him touch the ground neither fall or it will be game over!
