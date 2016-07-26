@@ -28,9 +28,9 @@ images:
 				The code of a previous experiment, <a href="https://github.com/alejandrogarciasalas/TuneBox">TuneBox</a> made by me under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License</a>.
 			</li>
 		</ul>
-		<strong>
-			libraries used:	
-		</strong>
+	</p>
+	<p>
+		libraries used:	
 		<ul>
 			<li><a href="http://shiffman.net/p5/kinect/">Open Kinect for Processing</a> by <a href="http://shiffman.net/p5/kinect/">Daniel Shiffman</a></li>
 			<li>Minim by <a href="http://code.compartmental.net/about/">Damien Di Fede</a></li>
