@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Laboratoria's LMS"
 date:   2015-04-24
 category: web

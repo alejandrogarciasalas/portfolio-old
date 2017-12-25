@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Vibe Circlet"
 date:   2014-08-17
 category: digital-art

@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Block Bear"
 date:   2012-02-22
 category: mobile

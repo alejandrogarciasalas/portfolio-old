@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "lineShuffle"
 date:   2014-05-13
 category: digital-art

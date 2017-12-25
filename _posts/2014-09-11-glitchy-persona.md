@@ -1,5 +1,5 @@
 ---
-layout: post-columns
+layout: post
 title:  "Glitchy Persona"
 date:   2014-09-11
 category: digital-art
