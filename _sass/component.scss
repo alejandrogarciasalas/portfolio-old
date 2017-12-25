@@ -152,7 +152,7 @@
 }
 
 .action--button {
-	color: $color-link;
+	color: $blue;
 }
 
 .no-touch .action--button:hover {
@@ -210,8 +210,8 @@
 
 .filter__item--selected {
 	font-weight: bold;
-	color: $color-link;
-	border-color: $color-link;
+	color: $blue;
+	border-color: $blue;
 }
 
 .filter__item .icon {
