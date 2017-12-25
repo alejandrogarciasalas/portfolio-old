@@ -6,7 +6,7 @@ category: mobile
 
 images:
 
-  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/warrior%20duck/screen480x480.jpeg
+  - url: https://dl.dropboxusercontent.com/s/pwbquja1y4scdnd/screen480x480.jpeg
     alt: warrior duck 1
     title: warrior duck 1
 

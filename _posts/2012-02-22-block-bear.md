@@ -6,7 +6,7 @@ category: mobile
 
 images:
 
-  - url: https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/block%20bear/screen480x480.jpeg
+  - url: https://dl.dropboxusercontent.com/s/kp5fxprxzhc506r/screen480x480.jpeg?dl=0
     alt: Block Bear 1
     title: Block Bear 1
 
