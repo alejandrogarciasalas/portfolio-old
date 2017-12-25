@@ -16,17 +16,6 @@ html {
 	padding: 0;
 }
 
-
-header{
-  a{
-    color: #212121;
-    text-decoration: none;
-    &:hover{
-      color: black;
-    }    
-  }
-}
-
 .site-title{
 	margin: 0;
 	font-weight: 300;
@@ -39,6 +28,7 @@ header{
 		}
 	}
 }
+
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .site-title{ font-size: 1.2rem; text-align: center; margin: 4% 0 3%; }
   .top-nav{ display: none; }
@@ -46,26 +36,17 @@ header{
 }
 
 nav{
-	font-family: 'Circular Book';
-	font-size: 1.3rem;
-	a{
-		color: rgba(61, 70, 77, 0.6);
-    text-decoration: none;
-		&:hover{
-			color: #444;
-		}
-	}
-}
-
-.top-nav{
 	top: 1.4%;
 	left: 8%;
-	position: relative;
-	a{
-		margin-left: 5%;
-		&:hover{
-		}
-	}
+  
+  font-size: 1.3rem;
+  a{
+    color: rgba(61, 70, 77, 0.6);
+    text-decoration: none;
+    &:hover{
+      color: #444;
+    }
+  }
 }
 
 .bottom-nav{
