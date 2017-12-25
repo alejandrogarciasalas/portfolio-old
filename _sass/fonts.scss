@@ -1,81 +1,129 @@
-/* Circular */
+/**
+ * @license
+ * MyFonts Webfont Build ID 3501974, 2017-12-23T14:29:41-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NeueHaasUnicaPro-Black by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/black/
+ * 
+ * Webfont: NeueHaasUnicaPro-XBlackIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/extra-black-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-BoldItalic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/bold-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-BlackIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/black-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-XBlack by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/extra-black/
+ * 
+ * Webfont: NeueHaasUnicaPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
+ * 
+ * Webfont: NeueHaasUnicaPro-HeavyIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/heavy-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-Heavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/heavy/
+ * 
+ * Webfont: NeueHaasUnicaPro-Italic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-LightIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/light-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-Light by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/light/
+ * 
+ * Webfont: NeueHaasUnicaPro-MediumIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/medium-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/medium/
+ * 
+ * Webfont: NeueHaasUnicaPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
+ * 
+ * Webfont: NeueHaasUnicaPro-ThinItalic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/thin-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-Thin by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/thin/
+ * 
+ * Webfont: NeueHaasUnicaPro-UltLightIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/ultra-light-italic/
+ * 
+ * Webfont: NeueHaasUnicaPro-UltraLight by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/ultra-light/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3501974
+ * Licensed pageviews: 10
+ * Webfonts copyright: Copyright &#x00A9; 2016 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
 
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-Bold.eot');
-	src: url('../assets/fonts/circular/Circular-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-Bold.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-Black.eot');
-	src: url('../assets/fonts/circular/Circular-Black.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-Black.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-Black.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: 'Circular Book';
-	src: url('../assets/fonts/circular/Circular-Book.eot');
-	src: url('../assets/fonts/circular/Circular-Book.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-Book.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-Book.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-Medium.eot');
-	src: url('../assets/fonts/circular/Circular-Medium.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-Medium.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-MediumItalic.eot');
-	src: url('../assets/fonts/circular/Circular-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-MediumItalic.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-MediumItalic.ttf') format('truetype');
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Circular Book';
-	src: url('../assets/fonts/circular/Circular-BookItalic.eot');
-	src: url('../assets/fonts/circular/Circular-BookItalic.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-BookItalic.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-BookItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-BoldItalic.eot');
-	src: url('../assets/fonts/circular/Circular-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-BoldItalic.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-BoldItalic.ttf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Circular';
-	src: url('../assets/fonts/circular/Circular-BlackItalic.eot');
-	src: url('../assets/fonts/circular/Circular-BlackItalic.eot?#iefix') format('embedded-opentype'),
-		url('../assets/fonts/circular/Circular-BlackItalic.woff') format('woff'),
-		url('../assets/fonts/circular/Circular-BlackItalic.ttf') format('truetype');
-	font-weight: 900;
-	font-style: italic;
-}
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Black';src: url('../assets/fonts/neue-hass-unica/356F96_0_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_0_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_0_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_0_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-XBlackIt';src: url('../assets/fonts/neue-hass-unica/356F96_1_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_1_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_1_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_1_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-BoldItalic';src: url('../assets/fonts/neue-hass-unica/356F96_2_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_2_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_2_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_2_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-BlackIt';src: url('../assets/fonts/neue-hass-unica/356F96_3_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_3_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_3_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_3_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-XBlack';src: url('../assets/fonts/neue-hass-unica/356F96_4_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_4_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_4_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_4_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Bold';src: url('../assets/fonts/neue-hass-unica/356F96_5_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_5_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_5_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_5_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-HeavyIt';src: url('../assets/fonts/neue-hass-unica/356F96_6_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_6_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_6_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_6_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Heavy';src: url('../assets/fonts/neue-hass-unica/356F96_7_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_7_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_7_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_7_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Italic';src: url('../assets/fonts/neue-hass-unica/356F96_8_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_8_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_8_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_8_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-LightIt';src: url('../assets/fonts/neue-hass-unica/356F96_9_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_9_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_9_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_9_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Light';src: url('../assets/fonts/neue-hass-unica/356F96_A_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_A_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_A_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_A_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-MediumIt';src: url('../assets/fonts/neue-hass-unica/356F96_B_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_B_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_B_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_B_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Medium';src: url('../assets/fonts/neue-hass-unica/356F96_C_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_C_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_C_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_C_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Regular';src: url('../assets/fonts/neue-hass-unica/356F96_D_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_D_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_D_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_D_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-ThinItalic';src: url('../assets/fonts/neue-hass-unica/356F96_E_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_E_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_E_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_E_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-Thin';src: url('../assets/fonts/neue-hass-unica/356F96_F_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_F_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_F_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_F_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-UltLightIt';src: url('../assets/fonts/neue-hass-unica/356F96_10_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_10_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_10_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_10_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NeueHaasUnicaPro-UltraLight';src: url('../assets/fonts/neue-hass-unica/356F96_11_0.eot');src: url('../assets/fonts/neue-hass-unica/356F96_11_0.eot?#iefix') format('embedded-opentype'),url('../assets/fonts/neue-hass-unica/356F96_11_0.woff2') format('woff2'),url('../assets/fonts/neue-hass-unica/356F96_11_0.woff') format('woff'),url('../assets/fonts/neue-hass-unica/356F96_11_0.ttf') format('truetype');}
+ 
