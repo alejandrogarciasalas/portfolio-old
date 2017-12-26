@@ -2,28 +2,8 @@
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script>
-  <script src="assets/js/isotope.pkgd.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script>
-    document.documentElement.className = 'js';
-  </script>  
+  <script src="assets/js/isotope.pkgd.min.js"></script>  
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
   <script src="assets/js/anime.min.js"></script>
   <script src="assets/js/effects.js"></script>
-  <script>
-  (function() {
-    function init() {
-      var idx = 0;
-      [].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
-        idx = pos%2 === 0 ? idx+1 : idx;
-        new TiltFx(el);
-      });
-    }
-    
-    // Preload all images.
-    imagesLoaded(document.querySelector('main'), function() {
-      document.body.classList.remove('loading');
-      init();
-    });
-  })();
-  </script>
+  <script src="assets/js/main.js"></script>
