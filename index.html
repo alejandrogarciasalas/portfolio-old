@@ -16,18 +16,20 @@ layout: default
         </figure>
       </a>
     </div>
-    <div class="grid-item">
-      <a href="#" class="tilter tilter-caption-slide-in">
-        <figure class="tilter__figure">
-          <img class="tilter__image" src="http://a4.mzstatic.com/us/r1000/095/Purple/v4/44/0a/95/440a95f1-4027-1dcd-7a11-9ca5bfbab473/mzl.jyazxrxf.png" alt="img01" />
-          <div class="tilter__deco tilter__deco--shine"><div></div></div>
-          <!-- <div class="tilter__deco tilter__deco--overlay"></div>             -->
-          <figcaption class="tilter__caption">
-            <h2 class="tilter__title">Space Arrangers</h2>
-            <p class="tilter__description">digitally manufactured board game</p>
-          </figcaption>
-        </figure>
-      </a>
-    </div>        
+    {% for post in site.posts %}
+      <div class="grid-item {{ post.category }}">
+        <a href="#" class="tilter tilter-caption-slide-in">
+          <figure class="tilter__figure" style="background-image: url({{post.images[0].url}});">
+<!--             <img class="tilter__image" src="{{post.images[0].url}}" alt="{{post.images[0].alt}}" /> -->
+            <!-- <div class="tilter__deco tilter__deco--shine"><div></div></div> -->
+            <!-- <div class="tilter__deco tilter__deco--overlay"></div>             -->
+            <figcaption class="tilter__caption">
+              <h2 class="tilter__title">{{post.title}}</h2>
+              <p class="tilter__description">lorem ipsum</p>
+            </figcaption>
+          </figure>
+        </a>
+      </div>      
+    {% endfor %}      
   </div>
 </main>

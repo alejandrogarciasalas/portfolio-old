@@ -1,0 +1,13 @@
+footer {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: #9A9A9A;
+	text-align: center;
+
+	a {
+		color: #333;
+		&:hover {
+			color: black;
+		}
+	}
+}
