@@ -16,8 +16,7 @@
 	display: block;
 	position: relative;
 	width:100%;
-	height: 415px;
-	// margin: 1.5em 2.5em;
+	height: 420px;
 	color: #fff;
 	flex: none;
 	perspective: 1000px;
@@ -33,19 +32,13 @@
 	outline: none;
 }
 
-/*
-.tilter__figure,
-.tilter__deco,
-.tilter__caption {
-	will-change: transform;
-}*/
-
 .tilter__figure,
 .tilter__image {
 	margin: 0;
 	width: 100%;
 	height: 100%;
 	display: block;
+	background-size:cover;
 }
 
 .tilter__figure > * {
@@ -96,12 +89,6 @@
 	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
 }
 
-.tilter__deco--lines {
-	fill: none;
-	stroke: #fff;
-	stroke-width: 1.5px;
-}
-
 .tilter__caption {
 	position: absolute;
 	bottom: 0;
@@ -122,48 +109,21 @@
 	letter-spacing: 0.15em;
 }
 
-/* Individual styles */
-
-/* Example 1 (Default) */
-.tilter--1 .tilter__figure::before {
-	box-shadow: 0 30px 20px rgba(0,0,0,0.5);
-}
-
-/* Example 3 (no lines, overlay hard-light) */
-.tilter--3 .tilter__deco--overlay {
-	background-image: linear-gradient(45deg, rgba(205, 81, 220, 0.6), rgba(41, 94, 230,0.5));
-}
-
-.tilter--3 .tilter__caption {
-	padding: 2em;
-	text-align: right;
-	text-shadow: 0.1em 0.8em 1em rgba(0,0,0,0.35);
-}
-
-/* Example 4 (caption sliding in) */
-.tilter--4 .tilter__deco--overlay {
-	background-image: linear-gradient(20deg, rgb(214, 100, 40), rgba(46, 39, 173, 0.58), rgba(53, 74, 165, 0.6));
-}
-
 @media screen and (min-width: 30em) {
-	.tilter--4 .tilter__deco--lines {
-		transform: scale3d(0.8,0.8,1);
-		transition: transform 0.4s;
-	}
-	.tilter--4:hover .tilter__deco--lines {
+	.tilter-caption-slide-in:hover .tilter__deco--lines {
 		transform: scale3d(1,1,1);
 	}
-	.tilter--4 .tilter__title,
-	.tilter--4 .tilter__description {
+	.tilter-caption-slide-in .tilter__title,
+	.tilter-caption-slide-in .tilter__description {
 		transform: translate3d(0,80px,0);
 		opacity: 0;
 		transition: transform 0.4s, opacity 0.4s;
 	}
-	.tilter--4:hover .tilter__description {
+	.tilter-caption-slide-in:hover .tilter__description {
 		transition-delay: 0.1s;
 	}
-	.tilter--4:hover .tilter__title,
-	.tilter--4:hover .tilter__description {
+	.tilter-caption-slide-in:hover .tilter__title,
+	.tilter-caption-slide-in:hover .tilter__description {
 		transform: translate3d(0,0,0);
 		opacity: 1;
 	}
