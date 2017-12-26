@@ -172,7 +172,8 @@
       var idx = 0;
       [].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) { 
         idx = pos%2 === 0 ? idx+1 : idx;
-        new TiltFx(el, tiltSettings[idx-1]);
+        // new TiltFx(el, tiltSettings[idx-1]); // we can choose from the different list of effects...
+        new TiltFx(el, tiltSettings[0]); // defaulting to effect [0]
       });
     }
 
@@ -184,9 +185,9 @@
 
     // REMOVE THIS!
     // For Demo purposes only. Prevent the click event.
-    [].slice.call(document.querySelectorAll('a[href="#"]')).forEach(function(el) {
-      el.addEventListener('click', function(ev) { ev.preventDefault(); });
-    });
+    // [].slice.call(document.querySelectorAll('a[href="#"]')).forEach(function(el) {
+    //   el.addEventListener('click', function(ev) { ev.preventDefault(); });
+    // });
 
   })();
   </script>
