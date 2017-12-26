@@ -15,9 +15,9 @@
 .tilter {
 	display: block;
 	position: relative;
-	width: 400px;
+	width:100%;
 	height: 415px;
-	margin: 1.5em 2.5em;
+	// margin: 1.5em 2.5em;
 	color: #fff;
 	flex: none;
 	perspective: 1000px;
@@ -129,22 +129,6 @@
 	box-shadow: 0 30px 20px rgba(0,0,0,0.5);
 }
 
-/* Example 2 (thicker lines, overlay) */
-.tilter--2,
-.tilter--2:hover,
-.tilter--2:focus {
-	color: #2e27ad;
-}
-
-.tilter--2 .tilter__deco--overlay {
-	background-image: linear-gradient(45deg, rgba(245, 239, 40, 0.6), rgba(164, 22, 169, 0.6));
-}
-
-.tilter--2 .tilter__deco--lines {
-	stroke: #2e27ad;
-	stroke-width: 4px;
-}
-
 /* Example 3 (no lines, overlay hard-light) */
 .tilter--3 .tilter__deco--overlay {
 	background-image: linear-gradient(45deg, rgba(205, 81, 220, 0.6), rgba(41, 94, 230,0.5));
@@ -183,90 +167,4 @@
 		transform: translate3d(0,0,0);
 		opacity: 1;
 	}
-}
-
-/* Example 5 (line animating) */
-.tilter--5 .tilter__deco--lines path {
-	stroke-dasharray: 1270;
-	stroke-dashoffset: 1270;
-	transition: stroke-dashoffset 0.7s;
-}
-
-.tilter--5:hover .tilter__deco--lines path {
-	stroke-dashoffset: 0;
-}
-
-.tilter--5 .tilter__figure::before {
-	box-shadow: none;
-}
-
-/* Example 6 (different line position) */
-.tilter--6,
-.tilter--6:hover,
-.tilter--6:focus {
-	color: #2e27ad;
-}
-
-.tilter--6 .tilter__deco--overlay {
-	background-image: linear-gradient(45deg, rgba(46, 39, 173, 0.2), rgba(255, 186, 59, 0.58));
-}
-
-.tilter--6 .tilter__deco--lines {
-	stroke: #2e27ad;
-	stroke-width: 6px;
-	top: -50px;
-	left: -50px;
-}
-
-.tilter--6 .tilter__caption {
-	padding: 0 4em 5.5em 1em;
-}
-
-.tilter--6 .tilter__figure::before {
-	box-shadow: none;
-}
-
-/* Example 7 (different line) */
-.tilter--7 .tilter__deco--overlay {
-	background-image: linear-gradient(45deg, rgba(93, 203, 106, 0.48), rgba(59, 239, 255, 0.58));
-}
-
-.tilter--7 .tilter__deco--lines {
-	stroke-width: 20px;
-	transform: scale3d(0.9,0.9,1);
-	opacity: 0;
-	transition: transform 0.3s, opacity 0.3s;
-}
-
-.tilter--7:hover .tilter__deco--lines {
-	opacity: 1;
-	transform: scale3d(1,1,1);
-}
-
-.tilter--7 .tilter__figure::before {
-	box-shadow: none;
-}
-
-/* Example 8 (different line) */
-.tilter--8 {
-	perspective: none;
-}
-
-.tilter--8 .tilter__figure {
-	transform-style: flat;
-}
-
-.tilter--8 .tilter__deco--lines {
-	stroke: #9255ae;
-	stroke-width: 6px;
-	mix-blend-mode: color-burn;
-}
-
-.tilter--8 .tilter__caption {
-	color: #9255ae;
-	mix-blend-mode: color-burn;
-}
-
-.tilter--8 .tilter__figure::before {
-	box-shadow: none;
 }
