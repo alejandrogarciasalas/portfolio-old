@@ -188,29 +188,5 @@
       el.addEventListener('click', function(ev) { ev.preventDefault(); });
     });
 
-    var pater = document.querySelector('.pater'),
-      paterSVG = pater.querySelector('.pater__svg'),
-      pathEl = paterSVG.querySelector('path'),
-      paths = {default: pathEl.getAttribute('d'), active: paterSVG.getAttribute('data-path-hover')};
-
-    pater.addEventListener('mouseenter', function() {
-      anime.remove(pathEl);
-      anime({
-        targets: pathEl,
-        d: paths.active,
-        duration: 400,
-        easing: 'easeOutQuad'
-      });
-    });
-
-    pater.addEventListener('mouseleave', function() {
-      anime.remove(pathEl);
-      anime({
-        targets: pathEl,
-        d: paths.default,
-        duration: 400,
-        easing: 'easeOutExpo'
-      });
-    });
   })();
   </script>

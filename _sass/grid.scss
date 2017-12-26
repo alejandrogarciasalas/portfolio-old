@@ -5,11 +5,20 @@
 .grid-item {
   float: left;
   width: 100%;
-  padding: 2.5%;
+  padding: 4%;
 }
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  .grid-item {
+  	width: 95%;
+  	padding: 2.5%;
+  }	
+}
+
+/* Larger than tablet */
+@media (min-width: 850px) {
   .grid-item {
   	width: 45%;
   }

@@ -102,7 +102,7 @@
 .tilter__caption {
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	width: 70%;
 	padding: 4em;
 }
 
@@ -120,9 +120,6 @@
 }
 
 @media screen and (min-width: 30em) {
-	.tilter-caption-slide-in:hover .tilter__deco--lines {
-		transform: scale3d(1,1,1);
-	}
 	.tilter-caption-slide-in .tilter__title,
 	.tilter-caption-slide-in .tilter__description {
 		transform: translate3d(0,80px,0);
