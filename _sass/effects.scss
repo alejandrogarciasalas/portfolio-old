@@ -65,17 +65,6 @@
 	box-shadow: 0 10px 20px rgba(0,0,0,.15);
 }
 
-// .tilter__figure::before {
-// 	content: '';
-// 	position: absolute;
-// 	width: 90%;
-// 	height: 90%;
-// 	top: 5%;
-// 	left: 5%;
-// 	// box-shadow: 0 30px 20px rgba(35,32,39,0.5);
-// 	// box-shadow: 0 30px 20px rgba(0,0,0,.15);
-// }
-
 .tilter__deco {
 	position: absolute;
 	top: 0;
@@ -104,6 +93,7 @@
 	bottom: 0;
 	width: 70%;
 	padding: 4em;
+	text-shadow: 0 10px 20px rgba(0,0,0,.05);
 }
 
 .tilter__title {
