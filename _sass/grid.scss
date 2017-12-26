@@ -1,0 +1,15 @@
+.grid {
+  margin-top: 2em;
+}
+
+.grid-item {
+  float: left;
+  padding: 2%;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .grid-item {
+  	width: 45%;
+  }
+}

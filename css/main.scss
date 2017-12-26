@@ -3,26 +3,11 @@
 ---
 @charset "utf-8";
 
-// Variables
 @import 'variables';
-
-@import 'animate';
-
-// Skeleton
 @import 'normalize';
 @import 'skeleton/skeleton';
-
-// Utilities
 @import 'utilities';
-
-//Fonts
 @import 'fonts';
-
-// General demo styles & header
-@import 'custom';
-
-// Flickity gallery styles
-@import 'flickity';
-
-// Component styles
-@import 'component';
+@import 'header';
+@import 'grid';
+@import 'effects';
