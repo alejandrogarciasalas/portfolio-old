@@ -1,6 +1,7 @@
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "NeueHaasUnicaPro-Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
@@ -26,7 +27,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
+  h1 { font-size: 6.5rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
@@ -38,5 +39,5 @@ p {
   margin-top: 0; }
 
 p, ul{
-  font-size: 1.22rem;
+  font-size: 2rem;
 }
