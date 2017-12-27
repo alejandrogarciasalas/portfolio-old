@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Block Bear"
+subtitle: "iOS game"
 date:   2012-02-22
 category: mobile
 
@@ -19,14 +20,6 @@ images:
     title: Block Bear 3
 
 ---
-_This is the first app I published to the Apple Appstore. I did this at the age of 14 and haven't updated it ever since. I took part in the whole process: game design, graphic design (using Adobe Illustrator), level design and development._
+This is the first app I published to the Apple Appstore. I made this app  at the age of 14. I took part in all of the game development process: game design, graphic design, level design and programming.
 
-Block Bear is a smart physics based puzzle action game. The objective is to help Joe the blocky bear reach his precious goal by destroying all types of blocks crates! Magic blocks! TNT! Bubbles! And more! With 5 engaging stories, each one featuring awesome and fantastic gameplay twists! 
-
-But watch out; don’t let him touch the ground neither fall or it will be game over!
-
-Good timing and smart thinking are the key for completing your goal, a must have indeed!
-
-
-[![available-on-appstore](https://dl.dropboxusercontent.com/u/30763013/portfolio/images/mobile/available-on-appstore.jpg)](https://itunes.apple.com/us/app/block-bear/id507322802?mt=8)
-
+>Block Bear is a smart physics based puzzle action game. The objective is to help Joe the blocky bear reach his precious goal by destroying all types of blocks crates! Magic blocks! TNT! Bubbles! And more! With 5 engaging stories, each one featuring awesome and fantastic gameplay twists! But watch out; don’t let him fall or it will be game over! Good timing and smart thinking are the key for completing your goal!

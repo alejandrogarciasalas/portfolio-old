@@ -4,10 +4,10 @@ layout: default
 <div class="spinner"></div>
 <main class="smooth hidden"> 
   <div class="filter animated fadeInDown">
-    <a href="#" class="active"  data-filter="*" >All</a>
-    <a href="#" data-filter=".web" >Web</a>
+    <a href="#" class="active" data-filter="*">All</a>
+    <a href="#" data-filter=".web">Web</a>
     <a href="#" data-filter=".mobile">Mobile</a>
-    <a href="#" data-filter=".tangible" >Tangible</a>
+    <a href="#" data-filter=".tangible">Tangible</a>
     <a href="#" data-filter=".art">Art</a>
     <a href="#" data-filter=".misc">Miscellaneous</a>
   </div>
@@ -20,11 +20,20 @@ layout: default
             <!-- <div class="tilter__deco tilter__deco--overlay"></div> -->
             <figcaption class="tilter__caption">
               <h2 class="tilter__title">{{post.title}}</h2>
-              <p class="tilter__description">lorem ipsum</p>
+              <p class="tilter__description">{{post.subtitle}}</p>
             </figcaption>
           </figure>
         </a>
       </div>      
-    {% endfor %}      
-  </div>
+    {% endfor %}  
+  </div>  
 </main>
+<script
+src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+crossorigin="anonymous"></script>
+<script src="{{ "/assets/js/isotope.pkgd.min.js"| prepend: site.baseurl }}"></script>  
+<script src="{{ "/assets/js/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/anime.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/effects.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/grid.js" | prepend: site.baseurl }}"></script>      

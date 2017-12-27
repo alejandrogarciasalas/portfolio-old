@@ -3,7 +3,6 @@
 ---
 @charset "utf-8";
 
-@import 'variables';
 @import 'normalize';
 @import 'skeleton/skeleton';
 @import 'utilities';
@@ -13,6 +12,6 @@
 @import 'filter';
 @import 'footer';
 @import 'animate';
-@import 'tilt-effect';
+@import 'tilter';
 @import 'spinner';
 @import 'post';
