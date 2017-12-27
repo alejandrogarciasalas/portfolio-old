@@ -5,7 +5,6 @@ function init_isotope_grid() {
     }
   });
 
-  // filter items on button click
   $('.filter').on( 'click', 'a', function() {
     event.preventDefault();
     var filterValue = $(this).attr('data-filter');
@@ -14,13 +13,10 @@ function init_isotope_grid() {
 }
 
 function init_tilter() {   
-   var idx = 0;   
    [].slice.call(document.querySelectorAll('a.tilter')).forEach(function(el, pos) {     
-     idx = pos%2 === 0 ? idx+1 : idx;   
      new TiltFx(el);    
    });    
 }
-
 
 $('.tilter__figure').imagesLoaded( { background: true }, function() {
   $('.spinner').remove();
