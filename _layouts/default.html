@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
+	
+<!--   -->
+<!--  -->
+
   {% include head.html %}
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
   <body>
   	<div class="container">
 	  	{% include header.html %}
@@ -9,4 +17,13 @@
 	    {% include scripts.html %}
   	</div>
   </body>
+
+	<script src="//code.jquery.com/jquery-latest.js"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	  $( document ).ready(function() {
+	      $.featherlight("<div style='padding:10%;'><h3>This site is not finished yet! 🏗🚧</h3><p>This site is a work in progress. My <a href='http://alejandro.pe/portfolio'>old portfolio site</a> is now broken since I changed how I was hosting all image assets, also it was very outdated and my design sensibilities have changed.</p><p> For this new site many things are still missing: the content is not fleshed out yet, I still need to polish styling and animations, and is not fully optimized yet.</p><p>If you want, feel free to take a look, however, for now I would recommend you to instead take a look at either my <a href='http://alejandro.pe/'>personal site</a>, my <a href='http://github.com/alejandrogarciasalas/'>GitHub</a>, or my <a href='https://www.dropbox.com/s/jtuwe6z6nu6glgi/Alejandro%20Garcia%20Salas%20-%20Resume.pdf?dl=0'>résumé</a>. </p><p>tl;dr</p><p> I've built all sorts of projects: iOS video games (art, game design, and programming), generative art with Processing, mobile apps mockups with Sketch, websites in different stacks (Django, Rails, MEAN and MERN), AR apps for the hololens, tangible user interfaces (3D Printing, Arduino, laser cutting etc.) and interactive art installations. I also like to draw and take <a href='http://alejandro.photos/'>photos</a>.</p><p>In short, I get easily bored and like making things. </p></div>");
+	  });
+	</script>
 </html>
